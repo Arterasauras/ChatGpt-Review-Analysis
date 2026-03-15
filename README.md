@@ -63,16 +63,7 @@ All visualizations are saved in: outputs/charts/
 
 Technologies Used -  Python  -  Pandas  -  NumPy  -  Matplotlib  -  Seaborn  -  TextBlob  -  NLTK  -  Scikit-learn  -  WordCloud
 
-## How to Run the Project
-
-1.  Clone the repository git clone
-    https://github.com/yourusername/chatgpt-review-analysis.git
-
-2.  Install dependencies pip install pandas numpy matplotlib seaborn Textblob nltk scikit-learn wordcloud
-
-3.  Run the script python chatgpt_review_analysis.py
-
-Outputs Charts will be generated and saved in: outputs/charts/
+***Outputs Charts will be generated and saved in: outputs/charts/***
 
 ##Future Improvements 
 - Topic modeling using LDA
