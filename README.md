@@ -20,7 +20,7 @@ The dataset contains user reviews of ChatGPT and includes:
 
 ## Methodology
 
-1.  Data Preparation Steps include:
+Data Preparation Steps include:
 
   -   Standardizing column names
   -   Handling missing review text
@@ -29,10 +29,10 @@ The dataset contains user reviews of ChatGPT and includes:
   -   Removing duplicate entries
   -   Cleaning text data by converting to lowercase and removing punctuation
 
-2.  Sentiment Analysis Sentiment analysis is performed using TextBlob. Polarity Range: -1 to +1 Indicates whether a review is negative, neutral, or positive.
-    Subjectivity Range: 0 to 1 Measures whether a review is factual or opinion-based. Reviews are categorized into: - Positive - Neutral - Negative
+Sentiment Analysis: Sentiment analysis is performed using TextBlob. Polarity Range: -1 to +1 Indicates whether a review is negative, neutral, or positive.
+Subjectivity Range: 0 to 1 Measures whether a review is factual or opinion-based. Reviews are categorized into: - Positive - Neutral - Negative
 
-3. Text Analysis The project extracts meaningful information from review text using:
+Text Analysis The project extracts meaningful information from review text using:
 
   -  Frequent Word Analysis Identifies the most commonly used words across reviews.
   -  TF-IDF Keyword Extraction Highlights important keywords that appear frequently and carry contextual significance.
@@ -62,8 +62,6 @@ All visualizations are saved in: outputs/charts/
 -  Frequent Phrases in Feedback Bigram analysis identifies common expressions used by reviewers.
 
 Technologies Used -  Python  -  Pandas  -  NumPy  -  Matplotlib  -  Seaborn  -  TextBlob  -  NLTK  -  Scikit-learn  -  WordCloud
-
-***Outputs Charts will be generated and saved in: outputs/charts/***
 
 ##Future Improvements 
 - Topic modeling using LDA
